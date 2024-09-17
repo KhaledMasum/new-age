@@ -192,7 +192,7 @@
 .owl-carousel .owl-dots .owl-dot span{background:#1b1b1b;position:relative;display:inline-block;width:15px; height:5px;margin:0 2px;transition:all 0.5s ease-in-out;-webkit-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;cursor:pointer;}
 .dark-bg .owl-carousel .owl-dots .owl-dot span{background:#ffffff}
 .owl-carousel .owl-dots .owl-dot:hover span,
-.owl-carousel .owl-dots .owl-dot.active span{background: #4ab242; width: 25px;}
+.owl-carousel .owl-dots .owl-dot.active span{background: #0b2b43; width: 25px;}
 .theme-bg .owl-carousel .owl-dots .owl-dot:hover span,
 .theme-bg .owl-carousel .owl-dots .owl-dot.active span{background:#ffffff;}
 .text-left .owl-carousel .owl-dots{left: 0; transform: translateX(0);}
@@ -206,12 +206,12 @@
 .owl-carousel .owl-nav button.owl-next:hover{background:#1b1b1b;color:#fff;}
 
 .theme-bg .owl-carousel .owl-nav button.owl-prev,
-.theme-bg .owl-carousel .owl-nav button.owl-next{background:#ffffff;color:#4ab242;}
+.theme-bg .owl-carousel .owl-nav button.owl-next{background:#ffffff;color:#0b2b43;}
 .theme-bg .owl-carousel .owl-nav button.owl-prev:hover,
 .theme-bg .owl-carousel .owl-nav button.owl-next:hover{background:#1b1b1b;color:#fff;}
 
 .dark-bg .owl-carousel .owl-nav button.owl-prev:hover,
-.dark-bg .owl-carousel .owl-nav button.owl-next:hover{background:#ffffff;color:#4ab242;}
+.dark-bg .owl-carousel .owl-nav button.owl-next:hover{background:#ffffff;color:#0b2b43;}
 
 
 .slide-arrow-2.owl-carousel .owl-nav {bottom: 30px; top: inherit; width: auto; left: 50%; transform: inherit;}

@@ -69,6 +69,10 @@
 
     <!--== color-customizer -->
     <link href="#" data-style="styles" rel="stylesheet" />
+
+    <!--== aos-animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link
       href="css/color-customize/color-customizer.css"
       rel="stylesheet"
@@ -360,52 +364,108 @@
       <!--body content start-->
 
       <div class="page-content">
-        <!--3 step start-->
+        <!-- contact info start -->
 
-        <section>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-md-12">
-                <div class="featured-step">
-                  <span>01</span>
-                  <h5 class="mb-3">Best Checkup</h5>
-                  <div class="featured-desc">
-                    <p>
-                      Consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                      invidunt ut labore et dolor erat, sed diam voluptua.
-                    </p>
+        <section class="container py-0">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row mt-4">
+                <div class="col-sm-6 d-flex align-items-start mb-3">
+                  <i class="fa-solid fa-location-dot fs-2 text-danger me-2"></i>
+                  <div>
+                    <p class="fw-bold text-black mb-0">Location</p>
+                    <p><small class="text-black-50">42/I, Indira Road, Dhaka - 1215., Dhaka, Bangladesh, 1215</small></p>
+                  </div>
+                </div>
+                <div class="col-sm-6 d-flex align-items-start">
+                  <i class="fa-solid fa-thin fa-envelope-open-text fs-2 text-danger me-2"></i>
+                  <div>
+                    <p class="fw-bold text-black mb-0">Email</p>
+                    <p><small class="text-black-50">info@newage-group.com</small></p>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-12 mt-3 mt-lg-0">
-                <div class="featured-step">
-                  <span>02</span>
-                  <h5 class="mb-3">Online Appointment</h5>
-                  <div class="featured-desc">
-                    <p>
-                      Consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                      invidunt ut labore et dolor erat, sed diam voluptua.
-                    </p>
-                  </div>
+            </div>
+
+            <div class="row col-md-6 d-flex position-relative" style="top: -5rem; z-index: 20;" data-aos="zoom-in-up">
+              <div class="col-sm-6 d-flex">
+                <div class="p-4 text-white d-flex flex-column justify-content-between theme-bg h-100">
+                  <h4 class="text-white">Quality Product</h4>
+                  <p><small class="text-white-50">Lorem ipsum dolor sit amet consec tetur adipiscing elit.</small></p>
+                  <p><small class="text-theme-secondary d-flex align-items-center">Read More <i class="fa-solid fa-arrow-right ms-1"></i></small></p>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-12 mt-3 mt-lg-0">
-                <div class="featured-step">
-                  <span>03</span>
-                  <h5 class="mb-3">24 x 7 Available</h5>
-                  <div class="featured-desc">
-                    <p>
-                      Consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                      invidunt ut labore et dolor erat, sed diam voluptua.
-                    </p>
-                  </div>
+
+              <div class="col-sm-6 d-flex">
+                <div class="p-4 text-white d-flex flex-column justify-content-between theme-bg-secondary h-100 w-100">
+                  <h4 class="text-white">Project Overview</h4>
+                  <h2 class="text-white fw-bold">2,476</h2>
+                  <p class="fw-light"><small>Export Projects</small></p>
                 </div>
               </div>
             </div>
           </div>
         </section>
+        
+        <!-- contact info end -->
 
-        <!--3 step end-->
+        <!--about us start-->
+        <section class="container py-0">
+          <div class="row">
+            <div class="col-md-6">
+                <img src="images/about/about-us.jpg" alt="" class="img-fluid h-100" />
+            </div>
+
+            <div class="col-md-6">
+              <h3 class="border-bottom d-inline-block text-black" style="border-color: #f50501 !important; border-bottom-width: 4px !important;">About Newage</h3>
+              <h2 class="fs-4 fw-bold mt-3">32% Sustainable Reduction of CO2 Emissions</h2>
+              <p class="text-secondary">Newage Group is a leading manufacturer and exporter of woven and knit apparels from Bangladesh with an annual turnover of about 100 million US dollars. Operating for over three decades since 1984.</p>
+              <div class="row align-items-center">
+                <div class="col-sm-5 d-flex justify-content-center align-items-center flex-column p-4 text-white theme-bg">
+                  <i class="fa-sharp-duotone fa-solid fa-award fs-1 text-theme-secondary"></i>
+                  <h2 class="fs-1 fw-bold d-flex align-items-center text-white mt-2">40<i class="fa-solid fa-plus fs-6 text-theme-secondary ms-1"></i></h2>
+                  <p class="fw-light text-white-50"><small>Years of Experience</small></p>
+                </div>
+
+                <div class="col-sm-7 ps-2">
+                  <ul class="list-unstyled">
+                    <li class="d-flex align-items-center mb-2">
+                      <i class="fa-solid fa-circle-check me-2 text-theme-secondary"></i> Solar Rooftop
+                    </li>
+                    <li class="d-flex align-items-center mb-2">
+                      <i class="fa-solid fa-circle-check me-2 text-theme-secondary"></i> Use of BLDC Fan
+                    </li>
+                    <li class="d-flex align-items-center mb-2">
+                      <i class="fa-solid fa-circle-check me-2 text-theme-secondary"></i> Use of Energy Efficient LED Light
+                    </li>
+                    <li class="d-flex align-items-center mb-2">
+                      <i class="fa-solid fa-circle-check me-2 text-theme-secondary"></i> Use of Heat Recovery Technique
+                    </li>
+                    <li class="d-flex align-items-center mb-2">
+                      <i class="fa-solid fa-circle-check me-2 text-theme-secondary"></i> Use of Biomass Boiler
+                    </li>
+                    <li class="d-flex align-items-center mb-2">
+                      <i class="fa-solid fa-circle-check me-2 text-theme-secondary"></i> Wastage Recycling
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center my-4">
+                  <img class="img-fluid rounded-circle" src="images/about/profile.png" alt="" style="width: 64px; height: 64px;" />
+                  <div>
+                      <h4 class="mb-0">Dr. Jamilur Reza Choudhury</h4>
+                      <p class="mb-0">Pro Founder</p>
+                  </div>
+                  <button type="button" class="btn theme-bg-secondary btn-sm appoint-btn text-white">
+                    More About Us
+                  </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--about us end-->
 
         <!--about us start-->
 
@@ -2179,8 +2239,31 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/c3ee225c4c.js" crossorigin="anonymous"></script>
 
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <!-- inject js end -->
   </body>
 
-  <!-- Mirrored from themeht.com/template/hectolab/html/ltr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Sep 2024 09:12:35 GMT -->
+  <script>
+    // Owl Carousel
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        items:1,
+        loop:true,
+        margin:10,
+        autoplay:false,
+        autoplayHoverPause:true,
+        dotsClass: false
+    });
+    $('.play').on('click',function(){
+        owl.trigger('play.owl.autoplay',[1000])
+    })
+    $('.stop').on('click',function(){
+        owl.trigger('stop.owl.autoplay')
+    })
+
+    //AOS Animation
+    AOS.init();
+  </script>
 </html>
