@@ -8,8 +8,8 @@
     Variables
 ------------------------*/
 :root {
-  --theme-primary-color: #0b2b43;
-  --theme-secondary-color: #f50501;
+  --theme-primary-color: #0b2b43 !important;
+  --theme-secondary-color: #f50501 !important;
 }
 
 

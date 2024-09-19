@@ -8,8 +8,8 @@
     Variables
 ------------------------*/
 :root {
-  --theme-primary-color: #0b2b43;
-  --theme-secondary-color: #f50501;
+  --theme-primary-color: #0b2b43 !important;
+  --theme-secondary-color: #f50501 !important;
 }
 
 
@@ -97,12 +97,13 @@ section{padding: 80px 0;}
 /* ------------------------
     Text color
 ------------------------*/
-.text-theme{color:var(--theme-primary-color);}
-.text-theme-secondary{color:var(--theme-secondary-color);}
+.text-theme{color:var(--theme-primary-color) !important;}
+.text-theme-secondary{color:var(--theme-secondary-color) !important;}
 .text-black{color:#202125 !important;}
 .text-grey{color:#565857 !important;}
 .text-yellow{color:var(--theme-primary-color);}
 .text-rgba{color: rgba(255,255,255,0.8);}
+.text-green-icon{color:#7fc5a2 !important}
 
 
 /* ------------------------
@@ -111,8 +112,8 @@ section{padding: 80px 0;}
 .white-bg{background-color:#ffffff !important;}
 .dark-bg{background-color:#1b1b1b;}
 .grey-bg{background-color:#f9f9f9;}
-.theme-bg{background-color:var(--theme-primary-color);}
-.theme-bg-secondary{background-color:var(--theme-secondary-color);}
+.theme-bg{background-color:var(--theme-primary-color) !important;}
+.theme-bg-secondary{background-color:var(--theme-secondary-color) !important;}
 .transparent-bg{background-color: inherit !important;}
 
 
