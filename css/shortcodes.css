@@ -320,7 +320,7 @@ background: linear-gradient(to bottom, rgba(74,178,66,0) 0%, rgba(74,178,66,0.9)
 ------------------------*/
 .ht-progress-bar { margin: 20px 0; }
 .ht-progress-bar h4 { color: #202125; font-weight: 500; font-size: 14px; }
-.ht-progress-bar .progress { height: 5px; background: #eceff8; overflow: visible; border-radius: 5px; }
+.ht-progress-bar .progress { height: 5px; background: #eceff8 !important; overflow: visible; border-radius: 5px; }
 .ht-progress-bar .progress .progress-bar { position: relative; overflow: visible; border-radius: 5px; background: var(--theme-primary-color); /* Old browsers */ background: -moz-linear-gradient(left, var(--theme-primary-color) 0%, #18c9bf 50%, #3dcaff 50%, #0358d5 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(left, var(--theme-primary-color) 0%, #18c9bf 50%, #3dcaff 50%, #0358d5 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to right, var(--theme-primary-color) 0%, #18c9bf 50%, #3dcaff 50%, #0358d5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--theme-primary-color)', endColorstr='#0358d5', GradientType=1); /* IE6-9 */ }
 .ht-progress-bar .progress-parcent { position: absolute; right: 0px; top: -37px; color: #222021; font-size: 16px; }
 .theme-bg .ht-progress-bar .progress { background: rgba(255, 255, 255, 0.2); }
@@ -396,6 +396,7 @@ background: linear-gradient(to bottom, rgba(74,178,66,0) 0%, rgba(74,178,66,0.9)
     Button
 ------------------------*/
 .btn{padding: 12px 25px; font-weight: 500; background: none; color: #202125; border-radius: 0; border: 1px solid transparent; position: relative; overflow: hidden; z-index: 9;}
+.btn-circle{padding: 12px 25px; font-weight: 500; background: none; color: #202125; border-radius: 0; border: 1px solid transparent; position: relative; overflow: hidden; z-index: 9;}
 .btn span{transition: inherit;}
 .dark-bg .btn, .theme-bg .btn{color: #ffffff;}
 .btn.focus, .btn:focus{box-shadow: none;}

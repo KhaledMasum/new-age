@@ -478,6 +478,11 @@
 	padding-left: 5rem !important
 }
 
+.py-11, .px-11 {
+	padding-top: 5rem !important;
+	padding-bottom: 5rem !important
+}
+
 .m-n1 {
 	margin: -.25rem !important
 }
